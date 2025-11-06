@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7B3B3;
+}
+.container{
+    width: 360px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 56px 20px 91px 20px;
+}
+button{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 23px;
+    background-color: #FFFFFF;
+    border: 0px;
+}
+
+.title{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+input{
+   width: 316px;
+   height: 44px;
+    margin-top: 17px;
+    border: 0px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 29px;
+}
+.menuposition{
+    margin-right: 24px;
+    display: inline-block;
+}
+.imgmenu{
+    background-color: #EFEFEF;
+    width: 74px;
+    height: 74px;
+    border-radius: 12px;
+}
+.imgposition{
+    padding: 17px;
+}
+.text{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #C4C4C4;
+    margin-top: 8px;
+    text-align: center;
+}
+.menuposition:hover .imgmenu{
+    background-color: #EAE2B7;
+    transition: background-color 0.5s ease;
+}
+
+.menuposition:hover .text{
+   color: #000000;
+   transition: background-color 0.5s ease;
+}
+
+.menu2 {
+    padding-left: 4px;
+    margin-top: 32px;
+}
+
+.title2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #003049;
+    margin-bottom: 26px;
+}
+
+.item{
+    width: 316px;
+    height: 88px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px #E5E5E5;
+    margin-bottom: 12px;
+    padding: 6px 16px 13px;
+    display: flex;
+    align-items: center;
+}
+
+.iteminfo{
+    padding: 22px 12px 22px;
+}
+    
+.itemname{
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #003049;
+    padding-bottom: 8px;
+}
+.price{
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: Medium;
+    color: #D62828;
+}
+.item:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    border: none;
+}
