@@ -41,8 +41,8 @@
 }
 
 .second{
-    position: absolute;
-    bottom: 150px;
+    position: relative;
+    bottom: 120px;
     left: 80px;
     height: 204px;
     width: 358px;
@@ -68,7 +68,7 @@
 }
 
 .glyph {
-    position: absolute;
+    position: relative;
     bottom: 28px;
     left: 44px;
     height: 204px;
