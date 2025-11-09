@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+.background{
+  background-color: #E6EEF0;
+  margin: 0 auto;
+  width: 1920px;       
+  padding: 142px 128px; 
+}
+
+.float{
+    display: inline-flex;
+    margin-bottom: 128px;
+}
+
+.item1, .item2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    display: inline;
+}
+
+.item1{
+    font-weight: 600;
+}
+.item2{
+    font-weight: 400;
+}
+
+.text{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.list-item{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-top: 56px;
+    padding-bottom: 122px;
+    text-align: center;
+}
+
+.people{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border: solid #EFF3F8 4px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.avatar img{
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+}
+
+.name{
+    font-family: "Catamaran", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 34px;
+}
+
+.speciality{
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.icon{
+    border-radius: 100px;
+    background-color: #41B883;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;  
+}
+.icon img{
+  position: relative;
+  top: 15px;
+  width: 30px;
+  height: 26px;
+}
+
+.icon-item{
+    display: inline-flex;
+}
+
+.icon2{
+    border-radius: 100px;
+    background-color: #34474F;
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+}
+
+.icon2 img{
+  position: relative;
+  top: 10px;
+  width: 28px;
+  height: 31px;
+}
+
+.icon3{
+    border-radius: 100px;
+    background-color: #202124;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 14px;
+}
+
+.icon3 img{
+  position: relative;
+  top: 10px;
+  width: 24px;
+  height: 30px;
+}
+
+.icon4{
+    border-radius: 100px;
+    background-color: #61DAFB;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.icon4 img{
+  position: relative;
+  top: 9px;
+  width: 31px;
+  height: 33px;
+}
+
+.icon5{
+    border-radius: 100px;
+    background-color: #D63033;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 14px;
+}
+
+.icon5 img{
+  position: relative;
+  top: 9px;
+  width: 22px;
+  height: 30px;
+}
+
+.icon6{
+    border-radius: 100px;
+    background-color: #0AA9D7;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.icon6 img{
+  position: relative;
+  top: 9px;
+  width: 31px;
+  height: 33px;
+}
+
+.icon7{
+    border-radius: 100px;
+    background-color: #E44E25;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 14px;
+}
+
+.icon7 img{
+  position: relative;
+  top: 15px;
+  width: 19px;
+  height: 25px;
+}
+
+.icon8{
+    border-radius: 100px;
+    background-color: #1073BB;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.icon8 img{
+  position: relative;
+  top: 15px;
+  width: 19px;
+  height: 25px;
+}
+
+
+
+
+
