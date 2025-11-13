@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+
+header{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 120%;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-item{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+.ellipse{
+    border-radius: 100px;
+    background-color: #F2994A;
+    width: 7px;
+    height: 7px;
+    position: relative;
+    left: 24px;
+    top: 5px;
+}
+
+.category{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+.category>img{
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+section{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 51px;
+}
+
+.photo>img{
+    width: 411px;
+    height: 533px;
+}
+
+.text{
+    width: 490px;
+    flex-direction: column;
+}
+
+.work-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+  color: #F2994A;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+.work-space>img{
+    width: 11px;
+    height: 11px;
+}
+
+.title2{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin-top: 16px;
+}
+
+.orang-line{
+    width: 188px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #F2994A;
+    margin-top: 71px;
+}
+
+.description{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 180%;
+  letter-spacing: 1px;
+  margin-top: 24px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.play{
+    width: 85px;
+    height: 85px;
+    border-radius: 100px;
+    background-color: #3F9AB7;
+}
+
+.play>img{
+    width: 32%;
+    height: 32%;
+    position: relative;
+    top: 30px;
+    left: 32px;
+}
+.watch{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin-left: 21px;
+}
+
+.icon-item{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.icon-fbook{
+    background-color: #F2994A;
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+}
+.icon-fbook>img{
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.icon-item>img{
+    margin-bottom: 18px;
+}
+
+.line{
+    width: 1px;
+    height: 401px;
+    background-color: #333333;
+    margin-bottom: 36px;
+}
+
+footer{
+    width: 100%;
+    height: 118px;
+    background-color: #3F9AB7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: solid 3px white;
+    overflow: hidden;
+}
+
+.avatar>img{
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+}
+
+.avatar:nth-child(2){
+    position: relative;
+    z-index: 3;
+    right: 20px;
+}
+.avatar:nth-child(3){
+    position: relative;
+    z-index: 3;
+    right: 40px;
+}
+
+.text-avatar{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
+  line-height: 100%;
+}
+.text-avatar>strong{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  font-style: normal;
+  line-height: 100%;
+}
+
+
+
+
+
+
