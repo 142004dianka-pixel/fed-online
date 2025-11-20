@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Rectangle\ 1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin: auto 0;
+    padding: 70px 0px 49px 40px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.element{
+    width: 0;
+    height: 28px;
+    border: 2px solid white;
+    margin-left: 56px;
+}
+.text-logo{
+    font-family: "Stack Sans Notch", sans-serif;
+    color: rgba(200, 200, 200, 1);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 26px;
+}
+.avatar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 33px;
+}
+.avatar-icon>i{
+    margin-right: 45px;
+}
+
+.avatar{
+    width: 74px;
+    height: 74px;
+}
+
+section{
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+
+.tag{
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.title{
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 64px;
+font-weight: 800;
+line-height: 77px;
+letter-spacing: 5.5%;
+text-align: left;
+margin-bottom: 27px;
+}
+.episodes{
+    color: rgba(167, 166, 166, 1);
+    font-family: Inter;
+font-size: 29px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: left;
+}
+.episodes>strong{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.descriotion{
+    color: rgba(167, 166, 166, 1);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating>i{
+    margin-right: 16px;
+    margin-top: 60px;
+    width: 30px;
+    height: 30px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+.button-red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 272px;
+    height: 64px;
+    border-radius: 10px;
+    background: rgba(213, 13, 31, 1);
+    margin-right: 90px;
+}
+.red{
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 141.52%;
+letter-spacing: 0%;
+text-align: left;
+}
+.button-red>i{
+    margin-left: 10px;
+}
+
+.button-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 272px;
+    height: 64px;
+    box-sizing: border-box;
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+.border{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 141.52%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+footer{
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-film{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35px;
+}
+.popular{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 22px;
+font-weight: 800;
+line-height: 144.52%;
+letter-spacing: 13.5%;
+text-align: left;
+}
+
+.film-item>img{
+    margin-left: 50px;
+}
+.film-item>img:first-child{
+    margin-left: 0px;
+}
+
+.arrow>i{
+    margin-left: 15px;
+    color: #a7a6a6;
+}
+.arrow>i:first-child{
+    margin-left: 0px;
+}
+.arrow>i:hover{
+    color: #FFFFFF;
+}
+
+.limitation{
+    margin-top: 103px;
+}
+.limitation-red{
+    position: relative;
+    right: 30px;
+    width: 33px;
+    height: 66px;
+    background: rgba(213, 13, 31, 1);
+}
+.limitation-gray{
+    width: 176px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+    background: rgba(255, 255, 255, 0.49);
+}
+.years{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 141.52%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
