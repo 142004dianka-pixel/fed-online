@@ -63,11 +63,11 @@ padding: 8px;
 /*Section*/
 .vacation{
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     background-image: url(./img/Rectangle\ 4.png);
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position: 110% center;
+    background-position: 190% -100px;
     position: relative;
     overflow: hidden;
     padding: 0px 10%;
@@ -219,6 +219,10 @@ margin-bottom: 8px;
 .input>i{
     margin-right: 30px;
 }
+.vacation{
+    height: 200vh;
+    background-position: 190% 100px;
+}
 
 }
 
@@ -251,6 +255,10 @@ margin-bottom: 8px;
 }
 .input>i{
     margin-right: 30px;
+}
+.vacation{
+    height: 200vh;
+    background-position: 190% 200px;
 }
 .title{
 width: 100%;
