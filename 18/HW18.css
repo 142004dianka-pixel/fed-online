@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", serif;
+    background: rgba(248, 250, 248, 1);
+}
+
+/*Header*/
+.header{
+    width: 100%;
+    margin-top: 41px;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: rgba(188, 67, 106, 1);
+font-family: Open Sans;
+font-size: 1.13rem;
+font-weight: 700;
+line-height: 1.56rem;
+letter-spacing: 0%;
+text-align: left;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.list-navigation{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    color: rgba(119, 102, 119, 1);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.19rem;
+letter-spacing: 0%;
+text-align: left;
+}
+.list-navigation>li{
+    margin-right: 45px;
+}
+.list-navigation>li:hover{
+    color: rgba(188, 67, 106, 1);
+    font-weight: 700;
+}
+.button-navigation{
+    width: 6.38rem;
+    height: 2.38rem;
+    background-color: #386E41;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 0.9rem;
+line-height: 1.19rem;
+letter-spacing: 0%;
+text-align: center;
+padding: 8px;
+}
+
+/*Section*/
+.vacation{
+    width: 100%;
+    height: 110vh;
+    background-image: url(./img/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 110% center;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 10%;
+}
+
+.element{
+    position: relative;
+width: 7.5rem;
+height: 7.5rem;
+box-sizing: border-box;
+border: 0.63rem solid rgba(56, 110, 65, 1);
+left: -200px;
+}
+
+.title{
+width: 30rem;
+height: 6.13rem;
+font-family: Inter;
+font-size: 2.25rem;
+font-weight: 500;
+line-height: 2.69rem;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 198px;
+color: #333333;
+}
+.title strong{
+    font-weight: 600;
+    color: #BC436A;
+}
+.paragraph{
+    color: rgba(122, 122, 122, 1);
+font-family: Inter;
+font-size: 1.13rem;
+font-weight: 400;
+line-height: 1.6rem;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 30px;
+width: 30rem;
+height: 6.13rem;
+}
+.text-arrow{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 33px;
+}
+
+.text{
+    color: rgba(118, 118, 118, 1);
+font-family: Inter;
+font-size: 1.13rem;
+font-weight: 400;
+line-height: 1.38rem;
+letter-spacing: 0%;
+text-align: left;
+margin-right: 24px;
+}
+
+.input-box{
+    width: 100%;
+height: 6.25rem;
+border-radius: 10px;
+background: rgba(56, 110, 65, 1);
+padding: 30px 31px 30px 38px;
+align-items: center;
+display: flex;
+}
+
+select{
+    background: none;
+    border: none;
+    appearance: none;
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 1.13rem;
+font-weight: 400;
+line-height: 1.38rem;
+letter-spacing: 0%;
+text-align: left;
+margin-right: 154px;
+}
+
+.input>i{
+    color: rgba(255, 255, 255, 1);
+    margin-right: 85px;
+}
+
+.button{
+    margin-left: 10px;
+    width: 9.06rem;
+height: 2.56rem;
+border-radius: 5px;
+box-shadow: 0rem 0rem 20rem 0rem rgba(0, 0, 0, 0.11);
+background: rgba(188, 67, 106, 1);
+color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.38rem;
+letter-spacing: 0%;
+text-align: center;
+padding: 8px 21px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-title{
+    color: rgba(118, 118, 118, 1);
+font-family: Inter;
+font-size: 1.13rem;
+font-weight: 400;
+line-height: 1.38rem;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+}
+
+.footer>i{
+    color: rgba(118, 118, 118, 1);
+}
+
+@media(max-width:1000px)  {
+    .header{
+    flex-direction: column;
+}
+.navigation{
+    margin-top: 20px;
+    flex-direction: column;
+}
+.button-navigation{
+    margin-top: 20px;
+}
+.input-box{
+  flex-wrap: wrap;
+  text-align: right;
+  margin-top: 20px;
+  height: 30%;
+}
+.input>i{
+    margin-right: 30px;
+}
+
+}
+
+@media(max-width:500px)  {
+    .header{
+    flex-direction: column;
+    text-align: center;
+}
+.navigation{
+    margin-top: 20px;
+}
+.list-navigation{
+ flex-direction: column;
+ text-align: center;
+}
+.list-navigation>li{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.button-navigation{
+    margin-top: 20px;
+    justify-content: center;
+}
+.input-box{
+  flex-wrap: wrap;
+  text-align: right;
+  margin-top: 20px;
+  height: 30%;
+}
+.input>i{
+    margin-right: 30px;
+}
+.title{
+width: 100%;
+height: 20%;
+}
+.paragraph{
+width: 100%;
+}
+
+}
