@@ -1,0 +1,109 @@
+.top-bg-section{
+background-image: url(./img/coffee1.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text-center-section{
+    color: rgba(255, 255, 255, 1);
+font-family: Shadows Into Light;
+font-size: 6.88rem;
+font-weight: 400;
+line-height: 11.06rem;
+letter-spacing: 0%;
+text-align: center;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+header{
+    background: var(--キーカラー, rgba(102, 142, 104, 1));
+}
+.navbar-brand{
+    color: rgba(255, 255, 255, 1);
+font-family: Shadows Into Light;
+font-size: 2.75rem;
+font-weight: 400;
+line-height: 3.31rem;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Shadows Into Light;
+font-size: 1.13rem;
+font-weight: 500;
+line-height: 1.38rem;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-center{
+   color: rgba(0, 0, 0, 1);
+
+font-family: Shadows Into Light;
+font-size: 2.19rem;
+font-weight: 400;
+line-height: 3rem;
+letter-spacing: 0%;
+text-align: center;
+}
+.img-food{
+    box-sizing: border-box;
+border: 0.56rem solid rgba(129, 97, 59, 1);
+border-radius: 200rem;
+}
+button{
+    background: var(--キーカラー, rgba(102, 142, 104, 1));
+}
+button:hover{
+    background: var(--キーカラー, rgb(145, 180, 147));
+}
+.text-button{
+    color: rgba(255, 255, 255, 1);
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.19rem;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.bottom-bg-section{
+    background-image: url(./img/cafe1.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container-text-center{
+   color: rgba(255, 255, 255, 1);
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+font-family: Shadows Into Light;
+font-size: 3rem;
+font-weight: 500;
+line-height: 1.63rem;
+letter-spacing: 0%;
+text-align: center; 
+}
+p,h5{
+    color: rgba(255, 255, 255, 1);
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+font-family: Shadows Into Light;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 1.63rem;
+letter-spacing: 0%;
+text-align: center;
+}
+.news-section{
+    background-color: #E6DFD8;
+}
+.text-footer{
+    color: rgba(255, 255, 255, 1);
+font-family: Shadows Into Light;
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.56rem;
+letter-spacing: 0%;
+text-align: left;
+}
